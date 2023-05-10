@@ -17,7 +17,7 @@ export default function Home({ posts }) {
       <main className={styles.container}>
         <header className={styles.header}>
           <div className={styles.logos}>
-            <svg
+            {/* <svg
               height="80"
               width="80"
               xmlns="http://www.w3.org/2000/svg"
@@ -45,10 +45,10 @@ export default function Home({ posts }) {
                   fillRule="nonzero"
                 ></path>
               </g>
-            </svg>
+            </svg> */}
           </div>
           <h1>Shodo's Blog</h1>
-          <p>
+          {/* <p>
             This is an example of a Next.js blog with data fetched with Notions
             API. The data comes from{" "}
             <a href={`https://www.notion.so/${databaseId}`}>this table</a>. Get
@@ -61,7 +61,7 @@ export default function Home({ posts }) {
               my blogpost
             </a>{" "}
             on building your own.
-          </p>
+          </p> */}
         </header>
 
         <h2 className={styles.heading}>All Posts</h2>
